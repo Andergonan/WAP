@@ -1,0 +1,99 @@
+/*
+    Author: David Anderle
+    Github: https://github.com/Andergonan/
+    LICENSE: https://github.com/Andergonan/WAP/blob/main/LICENSE
+*/
+
+/*main start*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+    background-color: rgb(199, 199, 199);
+    margin-top: 0px;
+}
+/*main end*/
+
+/*header start*/
+header {
+    background-color: white;
+    min-height: 7rem;
+}
+    header .header-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
+        color: black;
+        text-align: center;
+        padding: 5rem;
+    }
+
+/*header end*/
+
+/*main-page start*/
+.title-container {
+    background-color: rgb(47, 255, 134);
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    padding: 1px;
+    text-align: left;
+}
+
+.content-container {
+    background-color: white;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 1px;
+    text-align: center;
+}
+
+    /*card start*/
+    .card {
+        display: inline-block;
+        background: rgb(255,90,90);
+        background: linear-gradient(90deg, rgba(255,90,90,1) 0%, rgba(255,60,172,1) 71%);
+        width: 250px;
+        height: 250px;
+        border-radius: 700px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        transition: 2s ease-in-out;
+    }
+        .card-ico {
+            color: white;
+            font-size: 100px;
+            margin-top: 2rem;
+        }
+        .card-text {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            color: white;
+            cursor: default;
+        }
+        .card:hover {
+            opacity: 30%;
+        }
+
+/*main-page end*/
+
+/*footer start*/
+footer {
+    background-color: rgb(63, 63, 63);
+    height: 4rem;
+    text-align: center;
+}
+    .footer-text {
+     display: inline-block;
+        color: white;
+        cursor: default;
+        font-family: 'Roboto Mono', monospace;
+    }
+    a {
+        color: white;
+    }
+    a:hover {
+        color: white;
+        opacity: 50%;
+    }
+/*footer end*/

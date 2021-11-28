@@ -1,0 +1,96 @@
+/*
+Author: David Anderle
+Github: https://github.com/Andergonan/
+LICENSE: https://github.com/Andergonan/WAP/blob/main/LICENSE
+*/
+
+body {
+    margin: 0%;
+    background-image: url(https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/*planets and orbit start*/
+#solar-system {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    }
+    .sun {
+        width: 6em; height: 6em;
+        margin-top: 20%;
+        background: rgb(255,251,0);
+        background: radial-gradient(circle, rgba(255,251,0,1) 0%, rgba(255,173,0,1) 100%);
+        box-shadow:
+        0 0 8px rgb(255,251,0),
+        0 0 10px rgba(255,173,0,1);
+    }
+    
+    .orbit-1 {
+        width: 7em; height: 7em;
+        border: 1px solid rgb(187, 187, 187);
+        margin-top: -6.6em;
+        animation: orbit-anim 3s linear infinite;
+        }
+        .mercury {
+            width: 0.5em; height: 0.5em;
+            margin-top: -0.3em;
+            background-color: rgb(233, 112, 13);
+            box-shadow:
+            0 0 10px rgb(233, 112, 13),
+            0 0 21px rgb(233, 112, 13);
+    }
+    
+    .orbit-2 {
+        width: 9em; height: 9em;
+        border: 1px solid rgb(187, 187, 187);
+        margin-top: -8.1em;
+        animation: orbit-anim 5s linear infinite;
+        }
+        .venus {
+            width: 1em; height: 1em;
+            margin-top: -0.5em;
+            background-color: rgb(218, 179, 72);
+            box-shadow:
+            0 0 10px rgb(218, 179, 72),
+            0 0 21px rgb(218, 179, 72);
+    }
+    
+    .orbit-3 {
+        width: 12.7em; height: 12.7em;
+        border: 1px solid rgb(187, 187, 187);
+        margin-top: -10.94em;
+        animation: orbit-anim 10s linear infinite;
+    }
+        .earth {
+            width: 1.3em; height: 1.3em;
+            margin-top: -0.68em;
+            background-color: rgb(0, 153, 255);
+            box-shadow:
+                0 0 10px rgb(0, 153, 255),
+                0 0 21px rgb(0, 153, 255);
+    }
+    .sub-orbit {
+        width: 1.7em; height: 1.7em;
+        border: 1px solid rgb(187, 187, 187);
+        margin-top: -1.57em;
+        animation: orbit-anim 1s linear infinite;
+        }
+        .earth-moon {
+            background-color: rgb(255, 255, 255);
+            width: 0.33em; height: 0.33em;
+            margin-top: -0.2em;
+}
+/*planets and orbit end*/
+
+/*orbit animation start*/
+@keyframes orbit-anim {
+    from {
+        transform: rotateZ(360deg);
+      }
+    to {
+        transform: rotateZ(0deg);
+    }
+}
+/*orbit animation end*/

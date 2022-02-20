@@ -1,0 +1,16 @@
+/*
+Author: David Anderle & Tomáš Růta
+Github: https://github.com/Andergonan/
+LICENSE: https://github.com/Andergonan/WAP/blob/main/LICENSE
+*/
+
+body{
+    margin: 0;
+    width:100%;height:100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#000;
+}
+  

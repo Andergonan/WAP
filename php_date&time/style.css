@@ -1,0 +1,29 @@
+/*google fonts start*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*google fonts end*/
+
+/*main struture start*/
+body {
+    margin: 0%;
+    background: rgb(47,72,159);
+    background: linear-gradient(90deg, rgba(47,72,159,0.9364788151588761) 13%, rgba(40,158,156,0.8804564061952906) 100%);
+}
+
+.container {
+    transition-duration: 3s;
+    background-color: rgba(255, 255, 255, 0.192);
+    max-width: 30em;
+    border-radius: 1em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-top: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+    .container:hover {
+        transition-duration: 3s;
+        border-radius: 3em;
+}
+/*main structure end*/

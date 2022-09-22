@@ -1,0 +1,25 @@
+td {
+    height: 40px; 
+    width: 40px;
+}
+
+.white {
+    background-color: #ffffff;
+    border: solid white;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe; 
+}
+
+.black {
+    background-color: #000000;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #000000;
+}

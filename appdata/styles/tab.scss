@@ -1,0 +1,71 @@
+.form-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 19em;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #4b4b4b;
+    border-radius: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-title {
+    background-color: #5bb0ff;
+    color: white;
+    padding: 0.7em;
+    border-radius: 1em;
+}
+
+.form-container input {
+    padding: 0.4em;
+    margin: 0.8em;
+    text-decoration: none;
+    background-color: #4b4b4b;
+    color: white;
+    border-radius: 1em;
+    border: 1px solid #5bb0ff;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+.form-container input:hover {
+    border: 1px solid #5bb0ff;
+}
+::placeholder {
+    color: white;
+}
+::-ms-input-placeholder {
+    color: white;
+}
+:-ms-input-placeholder {
+    color: white;
+}
+
+.login-button {
+    width: 10em;
+    height: 3em;
+    background: none;
+    border-radius: 1em;
+    border: 1px solid #5bb0ff;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.login-button:hover {
+    background-color: #5bb0ff;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.form-link {
+    padding: 0.8em;
+}
+.form-link a {
+    color: white;
+    padding: 2em;
+    transition-duration: 0.4s;
+}
+.form-link a:hover {
+    color: #5bb0ff;
+    padding: 2em;
+    transition-duration: 0.4s;
+}

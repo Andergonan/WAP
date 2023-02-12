@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password+Test</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="" method="post" autocomplete="on">
+
+            <label for="password_length">Zvolte délku hesla (6 - 32 znaků)</label>
+            <input type="number" name="password_length" id="password_length" step="1" min="6" max="32" value="6" required>
+            
+            <label for="password_complexity">Složitost hesla</label>
+            <select name="password_complexity" id="password_complexity">
+                <option value="high">Vyskoká</option>
+                <option value="medium">Střední</option>
+                <option value="low">Nízká</option>
+            </select>
+    
+            <input type="submit" value="Generovat heslo">
+    
+            <input type="password" name="password" id="password" value="">
+    
+            <input type="password" name="password_check" id="password_check" value="">
+    
+        </form>
+    
+        <button id="view">Zobrazit / skrýt heslo</button>
+    
+        <span id="error_mess"></span>
+    </div>
+</body>
+
+<style>
+
+    body{
+        margin-top: 10rem;
+        background-color: #313131;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+        width: 20%;
+        margin: auto;
+    }
+    form input[type="text"],
+    form input[type="password"],
+    form input[type="number"],
+    form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 1em;
+        box-sizing: border-box;
+        border-radius: 1em;
+        border: 0.1em solid #000000;
+        outline: none;
+        text-align: center;
+    }
+    form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 1em;
+        background-color: #44acf1;
+        color: #ffffff;
+        font-weight: bold;
+        border: none;
+        border-radius: 1em;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+    form input[type="submit"]:hover,
+    button:hover {
+        transition: 0.5s ease;
+        background-color: #237cb8;
+    }
+    form label {
+        display: block;
+        margin-bottom: 0.5em;
+        color: #ffffff;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    button {
+        width: 10%;
+        padding: 10px;
+        background-color: #44acf1;
+        color: #ffffff;
+        font-weight: bold;
+        border: none;
+        border-radius: 1em;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    span {
+        font-weight: bold;
+        color: #fc3d3d;
+    }
+</style>
+
+<script src="function.js"></script>
+</html>

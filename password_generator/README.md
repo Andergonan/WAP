@@ -2,6 +2,8 @@
 
 - *jedná se o JS webobou aplikaci, která na základě požadavků klienta generuje a validuje heslo*
 
+![password_test.gif]()
+
 ## Dev docs 
 
 - třída `Password`, obsahuje funkce `generate()` & `check()`

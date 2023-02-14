@@ -1,6 +1,6 @@
 # Password Generator
 
-- *jedná se o JS webobou aplikaci, která na základě požadavků klienta generuje a validuje heslo.*
+- *jedná se o JS webobou aplikaci, která na základě požadavků klienta generuje a validuje heslo*
 
 ## Dev docs 
 
